@@ -8,7 +8,6 @@ const Home = () => {
 	
 	// const color = "green-light-selected"
 	const [color, setColor] = useState("");
-	console.log("Color", color)
 
 	const selectColor = (event) => {
 		let cssClass = event.target.className.trim()
