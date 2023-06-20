@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#container{
+    margin:auto;
+}
+
+#traffic-top{
+    width: 30px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+}
+
+#box{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 5px 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+.glow{
+    box-shadow: 0px 0px 10px 10px rgba(238, 227, 16, 0.667);
+}
